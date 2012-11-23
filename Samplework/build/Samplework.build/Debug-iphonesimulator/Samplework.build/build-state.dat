@@ -5,8 +5,8 @@ cCheck dependencies
 cProcessInfoPlistFile "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Info.plist" Samplework/Samplework-Info.plist
 cProcessPCH /var/folders/6g/99m53lwx69x4vnqyrm91p23m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Samplework-Prefix-bfentlmdusbglxhhmjtkxxmobjny/Samplework-Prefix.pch.pth Samplework/Samplework-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/main.o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/MishraAppDelegate.o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/MishraAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/MishraViewController.o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/MishraViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/MishraAppDelegate.o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/MishraAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework" normal i386
 cGenerateDSYMFile "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM" "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework"
 cCopyStringsFile "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/en.lproj/InfoPlist.strings" Samplework/en.lproj/InfoPlist.strings
@@ -82,8 +82,8 @@ t1353655502
 s247
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/MishraViewController.m
-c0000000050AF49570000000000000247
-t1353664855
+c0000000050AF4C540000000000000247
+t1353665620
 s583
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/Samplework-Prefix.pch
@@ -110,11 +110,11 @@ t1353655502
 s368
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app
-t1353664209
+t1353665620
 s306
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM
-t1353664208
+t1353664859
 s102
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Default-568h@2x.png
@@ -138,7 +138,7 @@ t1353664207
 s8
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework
-t1353664208
+t1353665620
 s33148
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/en.lproj/InfoPlist.strings
@@ -154,8 +154,8 @@ t1353664208
 s93300
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/MishraViewController.o
-t1353664208
-s68052
+t1353665620
+s68068
 
 N/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/Samplework.LinkFileList
 c0000000050AF403000000000000001C7
@@ -190,7 +190,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies865968db805fb641^923c73db805fb641^---0#1#0#--18"Check dependencies36"7058B3B0-B919-4312-8091-D5C9FE83216C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4ad19e36855fb641^029f9f36855fb641^---0#1#0#--18"Check dependencies36"10399224-1CD0-4C97-BABB-46DAB42F7406-
 
 CCompileC build/Samplework.build/Debug-iphonesimulator/Samplework.build/Objects-normal/i386/MishraAppDelegate.o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/MishraAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s375357008.371387
@@ -276,13 +276,13 @@ xbuild/Debug-iphonesimulator/Samplework.app/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/Samplework.app/Default@2x.pnge2ca51b2775fb641^fc7256b2775fb641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Volumes/Nagesh%20Mishra/sample%20Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Default@2x.png000000000080d041^647"CpResource "Samplework/Default@2x.png" "build/Debug-iphonesimulator/Samplework.app/Default@2x.png"    cd "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/Samplework/Default@2x.png" "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app"36"F58FF7C2-93DE-4EF4-A52B-840456403330-
 
 CGenerateDSYMFile "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM" "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework"
-s375357659.660583
-e375357659.691800
+s375358774.674157
+e375358774.720817
 r1
 xGenerateDSYMFile
 x/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM
 x/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generating /Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYMba31a9db805fb641^912bb1db805fb641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/Nagesh%20Mishra/sample%20Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM/0000000000000000^691"GenerateDSYMFile build/Debug-iphonesimulator/Samplework.app.dSYM build/Debug-iphonesimulator/Samplework.app/Samplework    cd "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework" -o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM"36"EA2FBAE9-7D8D-4247-82FC-754CDC9C24C0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generating /Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM5a84ae36855fb641^4487b836855fb641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/Nagesh%20Mishra/sample%20Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM/0000000000000000^691"GenerateDSYMFile build/Debug-iphonesimulator/Samplework.app.dSYM build/Debug-iphonesimulator/Samplework.app/Samplework    cd "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework" -o "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app.dSYM"36"4F60AA03-409E-4412-A375-B33945CDBF07-
 
 CLd "/Volumes/Nagesh Mishra/sample Apps/sample/Samplework/build/Debug-iphonesimulator/Samplework.app/Samplework" normal i386
 s375357659.613650
