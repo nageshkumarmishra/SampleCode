@@ -11,9 +11,11 @@
 #import "MishraViewController.h"
 
 @implementation MishraAppDelegate
+@synthesize navigationContoller;
 
 - (void)dealloc
 {
+    [navigationContoller release];
     [_window release];
     [_viewController release];
     [super dealloc];
@@ -24,7 +26,8 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[MishraViewController alloc] initWithNibName:@"MishraViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    navigationContoller = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = navigationContoller;
     [self.window makeKeyAndVisible];
     return YES;
 }

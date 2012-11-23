@@ -11,9 +11,13 @@
 @class MishraViewController;
 
 @interface MishraAppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    UINavigationController *navigationContoller;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) MishraViewController *viewController;
+
+@property (strong, nonatomic) UINavigationController *navigationContoller;;
 
 @end
