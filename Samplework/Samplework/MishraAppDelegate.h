@@ -12,12 +12,12 @@
 
 @interface MishraAppDelegate : UIResponder <UIApplicationDelegate>
 {
-    UINavigationController *navigationContoller;
+    UINavigationController *navigationController;
 }
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) MishraViewController *viewController;
 
-@property (strong, nonatomic) UINavigationController *navigationContoller;;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
